@@ -1,0 +1,78 @@
+/*** Colors ***/
+/*** Fonts ***/
+/*** Breakpoints ***/
+.intro-section {
+  background-color: #0B0C10;
+  margin: auto;
+}
+
+.contact-buttons-group {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  grid-auto-flow: column;
+  grid-column-gap: 20px;
+}
+
+.btn-contact {
+  padding: 5px 0 5px;
+  width: 100%;
+  font-size: 18px;
+  font-family: "Montserrat", serif;
+  font-weight: bold;
+  background-color: transparent;
+  border: 1px solid #45A29E;
+  color: #C5C6C7;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.btn-contact:hover {
+  background-color: #45A29E;
+  color: #0B0C10;
+}
+
+body {
+  background-color: #0B0C10;
+}
+
+nav {
+  font-family: "Montserrat", serif;
+}
+
+nav a {
+  color: #C5C6C7;
+}
+
+nav a:hover {
+  color: #66FCF1;
+}
+
+h1 {
+  font-family: "IBM Plex Serif", serif;
+  color: #66FCF1;
+}
+
+h3 {
+  font-family: "IBM Plex Serif", serif;
+  color: #45A29E;
+}
+
+h5 {
+  font-family: "IBM Plex Serif", serif;
+  color: #45A29E;
+}
+
+a {
+  color: #66FCF1;
+}
+
+p {
+  font-family: "Montserrat", serif;
+  color: #C5C6C7;
+  margin-bottom: 2rem;
+}
+/*# sourceMappingURL=main.css.map */
