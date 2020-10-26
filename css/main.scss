@@ -92,6 +92,10 @@ p {
     }
 }
 
+.contact-section {
+    background: $blackish;
+}
+
 .content-container {
 	margin: 0 auto;
 	max-width: 1264px;
@@ -172,6 +176,7 @@ p {
 @include media-breakpoint-down(lg) {
     .container-fluid {
         margin-top: 0;
+        margin-bottom: 0;
     }
 }
 

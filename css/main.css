@@ -115,6 +115,10 @@ p {
   color: #0B0C10;
 }
 
+.contact-section {
+  background: #0B0C10;
+}
+
 .content-container {
   margin: 0 auto;
   max-width: 1264px;
@@ -201,6 +205,7 @@ p {
 @media (max-width: 1199.98px) {
   .container-fluid {
     margin-top: 0;
+    margin-bottom: 0;
   }
 }
 /*# sourceMappingURL=main.css.map */
