@@ -1,3 +1,7 @@
+@import "../bootstrap-4.5.3/scss/_functions.scss";
+@import "../bootstrap-4.5.3/scss/_variables.scss";
+@import "../bootstrap-4.5.3/scss/mixins/_breakpoints.scss";
+
 @import '_base';
 
 @mixin body-font {
@@ -6,8 +10,8 @@
 	color: $grey;
 }
 
-#intro-section {
-	background-color: $grey;
+.intro-section {
+	background: $grey;
 	margin: auto;
 
 	h1, h3, h5 {
@@ -17,6 +21,22 @@
 	p {
 		color: $blackish;
 	}
+}
+
+.about-section {
+    background: $dark-grey;
+}
+
+.resume-section {
+    background: $grey;
+
+    h1, h3, h5 {
+		color: $dark-blue;
+	}
+
+    li {
+        color: $blackish;
+    }
 }
 
 .content-container {
@@ -64,12 +84,19 @@
 	margin-bottom: 2rem;
 }
 
-html {
-	scroll-behavior: smooth;	
+@include media-breakpoint-down(md) {
+    .container-fluid {
+        margin: 20px 0;
+    }
+
+    .content-container {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
 }
 
-body {
-	background-color: $blackish;
+html {
+    scroll-behavior: smooth;
 }
 
 nav {

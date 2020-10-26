@@ -1,16 +1,31 @@
 /*** Colors ***/
 /*** Fonts ***/
-/*** Breakpoints ***/
-#intro-section {
-  background-color: #C5C6C7;
+.intro-section {
+  background: #C5C6C7;
   margin: auto;
 }
 
-#intro-section h1, #intro-section h3, #intro-section h5 {
+.intro-section h1, .intro-section h3, .intro-section h5 {
   color: #005c73;
 }
 
-#intro-section p {
+.intro-section p {
+  color: #0B0C10;
+}
+
+.about-section {
+  background: #1F2833;
+}
+
+.resume-section {
+  background: #C5C6C7;
+}
+
+.resume-section h1, .resume-section h3, .resume-section h5 {
+  color: #005c73;
+}
+
+.resume-section li {
   color: #0B0C10;
 }
 
@@ -63,12 +78,18 @@
   margin-bottom: 2rem;
 }
 
-html {
-  scroll-behavior: smooth;
+@media (max-width: 991.98px) {
+  .container-fluid {
+    margin: 20px 0;
+  }
+  .content-container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
 }
 
-body {
-  background-color: #0B0C10;
+html {
+  scroll-behavior: smooth;
 }
 
 nav {
