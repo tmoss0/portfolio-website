@@ -7,12 +7,11 @@
     <title>Tim Moss Portfolio</title>
 
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@500;600;700&display=swap" rel="stylesheet">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="bootstrap-4.5.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/main.css">
+
 </head>
 
 <body>
@@ -35,7 +34,7 @@
     </nav>
     <div class="container-fluid">
         <section class="section intro-section">
-            <div class="content-container">
+            <div class="content-container hidden">
                 <h1 class="text-center display-3 mb-5"><u>Tim Moss</u></h1>
                 <h3 class="text-center mb-4">Front-End Web Developer</h3>
                 <h5 class="text-center mb-5">HTML * CSS * Bootstrap * JavaScript * ReactJS</h5>
@@ -48,13 +47,13 @@
             </div>
         </section>
         <section class="section about-section">
-            <div class="content-container">
-                <h1 class="text-center display-3 mb-5" id="about">
+            <div class="content-container ">
+                <h1 class="text-center display-3 mb-5 hidden" id="about">
                     <u>About</u>
                 </h1>
                 <article>
                     <div class="mb-5">
-                        <p>
+                        <p class="hidden">
                             I am an experienced Front-End Web Developer in Charlotte, NC with a demonstrated history of
                             three
                             years working in
@@ -63,8 +62,8 @@
                             industries, including
                             boutique
                             bakeries, high-end automotive detail shops and automtive parts shops.
-                        </p>
-                        <p>
+                        </p> 
+                        <p class="hidden">
                             Utilizing HTML, CSS and JavaScript, I love creating mobile and desktop usable websites for
                             national clients and
                             local entrepenuers. In addition to my programming experience, I also have experience working
@@ -73,7 +72,7 @@
                             platforms
                             including WordPress and Shopify.
                         </p>
-                        <p>
+                        <p class="hidden">
                             One part of the website creation process I enjoy is being able to collaborate with my
                             clients in
                             order to bring their
@@ -85,12 +84,12 @@
                             solution for their
                             web-based needs.
                         </p>
-                        <p>
+                        <p class="hidden">
                             If you have any questions, please reach out to me at via the links below.
                         </p>
                     </div>
 
-                    <div class="contact-buttons-group">
+                    <div class="contact-buttons-group hidden">
                         <button class="btn-contact"
                             onclick="window.open('https://www.linkedin.com/in/tmoss0/', '_blank')" type="button">
                             LinkedIn
@@ -109,16 +108,16 @@
         </section>
         <section class="section resume-section">
             <div class="content-container">
-                <h1 class="text-center display-3 mb-5" id="resume">
+                <h1 class="text-center display-3 mb-5 hidden" id="resume">
                     <u>Resume</u>
                 </h1>
                 <div class="job-details">
-                    <div class="job-position">
+                    <div class="job-position hidden">
                         <h3 class="text-center mb-4">Theory Communication & Design</h3>
                         <h3 class="text-center mb-4">Front-End Web Developer</h3>
                         <h5 class="text-center mb-4">May 2017 - Present (Charlotte, NC)</h5>
                     </div>
-                    <ul>
+                    <ul class="hidden">
                         <li>Builds, updates and maintains websites for numerous industry-leading automotive businesses
                             including Mobil 1 and GM</li>
                         <li>Provides Creative and Account teams with recommendations for website updates and implements
@@ -133,12 +132,12 @@
                 </div>
                 <hr>
                 <div class="job-details">
-                    <div class="job-position">
+                    <div class="job-position hidden">
                         <h3 class="text-center mb-4">NC Wildlife Resources Commission</h3>
                         <h3 class="text-center mb-4">Programmer</h3>
                         <h5 class="text-center mb-4">September 2016 – January 2017 (Raleigh, NC)</h5>
                     </div>
-                    <ul>
+                    <ul class="hidden">
                         <li>Utilized HTML and CSS to modify the layout and functionality of four internal webpages</li>
                         <li>Wrote Visual Basic code to generate a variety of data reports for survey data, animal data,
                             angler data for a team of Wildlife Biologists
@@ -150,12 +149,12 @@
                 </div>
                 <hr>
                 <div class="job-details">
-                    <div class="job-position">
+                    <div class="job-position hidden">
                         <h3 class="text-center mb-4">iD Tech Camps (Summer Job)</h3>
                         <h3 class="text-center mb-4">Lead Instructor</h3>
                         <h5 class="text-center mb-4">Summer 2012 – Summer 2016 (Chapel Hill, NC / Davidson, NC)</h5>
                     </div>
-                    <ul>
+                    <ul class="hidden">
                         <li>Instructed eight students per week on the core concepts of game design and programming using
                             applications such as Unreal Engine 4, Stencyl, Hammer Source Editor, C++, and Java
                         </li>
@@ -181,6 +180,7 @@
         integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous">
     </script>
 
+    <script type="text/javaScript" src="/main.js"></script>
 </body>
 
 </html>

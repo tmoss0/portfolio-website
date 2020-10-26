@@ -1,5 +1,35 @@
 /*** Colors ***/
 /*** Fonts ***/
+@-webkit-keyframes fade-in {
+  from {
+    opacity: 0;
+    -webkit-transform: scale(0.7, 0.7);
+            transform: scale(0.7, 0.7);
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    -webkit-transform: scale(0.7, 0.7);
+            transform: scale(0.7, 0.7);
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in-element {
+  -webkit-animation: fade-in 1.4s;
+          animation: fade-in 1.4s;
+}
+
+.hidden {
+  opacity: 0;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -55,6 +85,7 @@ p {
   color: #C5C6C7;
 }
 
+/*** Classes ***/
 .intro-section {
   background: #C5C6C7;
   margin: auto;
@@ -147,6 +178,7 @@ p {
   visibility: visible;
 }
 
+/*** Mobile Adjustments ***/
 @media (max-width: 767.98px) {
   .contact-buttons-group {
     display: block;
@@ -163,6 +195,12 @@ p {
   .content-container {
     padding-left: 2rem;
     padding-right: 2rem;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .container-fluid {
+    margin-top: 0;
   }
 }
 /*# sourceMappingURL=main.css.map */

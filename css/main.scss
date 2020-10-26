@@ -3,6 +3,7 @@
 @import "../bootstrap-4.5.3/scss/mixins/_breakpoints.scss";
 
 @import '_base';
+@import '_transitions';
 
 @mixin body-font {
 	font-family: $body-text;
@@ -59,6 +60,8 @@ a {
 p {
 	@include body-font;
 }
+
+/*** Classes ***/
 
 .intro-section {
 	background: $grey;
@@ -143,6 +146,8 @@ p {
     visibility: visible;
 }
 
+/*** Mobile Adjustments ***/
+
 @include media-breakpoint-down(sm) {
     .contact-buttons-group {
         display: block;
@@ -153,7 +158,6 @@ p {
     }
 }
 
-
 @include media-breakpoint-down(md) {
     .container-fluid {
         margin: 20px 0;
@@ -162,6 +166,12 @@ p {
     .content-container {
         padding-left: 2rem;
         padding-right: 2rem;
+    }
+}
+
+@include media-breakpoint-down(lg) {
+    .container-fluid {
+        margin-top: 0;
     }
 }
 
