@@ -10,6 +10,56 @@
 	color: $grey;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+nav {
+	font-family: $body-text;
+	border-bottom: 1px solid $grey;
+	background-color: $blackish;
+
+	li {
+		margin-bottom: 0px;
+	}
+
+	a {
+		color: $grey;
+		transition-duration: 0.4s;
+	}
+
+	a:hover {
+		color: $light-blue;		
+	}
+}
+
+h1, h3, h5 {
+	font-family: $header-text;
+	color: $light-blue
+}
+
+hr {
+    background-color: $blackish;
+    margin: 0 0 2rem 0;
+}
+
+ul {
+    margin-bottom: 0;
+}
+
+li {
+	@include body-font;
+	margin-bottom: 1rem;
+}
+
+a {
+	color: $light-blue;
+}
+
+p {
+	@include body-font;
+}
+
 .intro-section {
 	background: $grey;
 	margin: auto;
@@ -93,6 +143,17 @@
     visibility: visible;
 }
 
+@include media-breakpoint-down(sm) {
+    .contact-buttons-group {
+        display: block;
+    }
+
+    .btn-contact {
+        margin-bottom: 2rem;
+    }
+}
+
+
 @include media-breakpoint-down(md) {
     .container-fluid {
         margin: 20px 0;
@@ -104,47 +165,4 @@
     }
 }
 
-html {
-    scroll-behavior: smooth;
-}
 
-nav {
-	font-family: $body-text;
-	border-bottom: 1px solid $grey;
-	background-color: $blackish;
-
-	li {
-		margin-bottom: 0px;
-	}
-
-	a {
-		color: $grey;
-		transition-duration: 0.4s;
-	}
-
-	a:hover {
-		color: $light-blue;		
-	}
-}
-
-h1, h3, h5 {
-	font-family: $header-text;
-	color: $light-blue
-}
-
-hr {
-	background-color: $blackish;
-}
-
-li {
-	@include body-font;
-	margin-bottom: 1rem;
-}
-
-a {
-	color: $light-blue;
-}
-
-p {
-	@include body-font;
-}

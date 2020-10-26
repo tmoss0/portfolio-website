@@ -1,5 +1,60 @@
 /*** Colors ***/
 /*** Fonts ***/
+html {
+  scroll-behavior: smooth;
+}
+
+nav {
+  font-family: "Montserrat", serif;
+  border-bottom: 1px solid #C5C6C7;
+  background-color: #0B0C10;
+}
+
+nav li {
+  margin-bottom: 0px;
+}
+
+nav a {
+  color: #C5C6C7;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+}
+
+nav a:hover {
+  color: #66FCF1;
+}
+
+h1, h3, h5 {
+  font-family: "IBM Plex Serif", serif;
+  color: #66FCF1;
+}
+
+hr {
+  background-color: #0B0C10;
+  margin: 0 0 2rem 0;
+}
+
+ul {
+  margin-bottom: 0;
+}
+
+li {
+  font-family: "Montserrat", serif;
+  font-weight: 500;
+  color: #C5C6C7;
+  margin-bottom: 1rem;
+}
+
+a {
+  color: #66FCF1;
+}
+
+p {
+  font-family: "Montserrat", serif;
+  font-weight: 500;
+  color: #C5C6C7;
+}
+
 .intro-section {
   background: #C5C6C7;
   margin: auto;
@@ -92,6 +147,15 @@
   visibility: visible;
 }
 
+@media (max-width: 767.98px) {
+  .contact-buttons-group {
+    display: block;
+  }
+  .btn-contact {
+    margin-bottom: 2rem;
+  }
+}
+
 @media (max-width: 991.98px) {
   .container-fluid {
     margin: 20px 0;
@@ -100,55 +164,5 @@
     padding-left: 2rem;
     padding-right: 2rem;
   }
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
-nav {
-  font-family: "Montserrat", serif;
-  border-bottom: 1px solid #C5C6C7;
-  background-color: #0B0C10;
-}
-
-nav li {
-  margin-bottom: 0px;
-}
-
-nav a {
-  color: #C5C6C7;
-  -webkit-transition-duration: 0.4s;
-          transition-duration: 0.4s;
-}
-
-nav a:hover {
-  color: #66FCF1;
-}
-
-h1, h3, h5 {
-  font-family: "IBM Plex Serif", serif;
-  color: #66FCF1;
-}
-
-hr {
-  background-color: #0B0C10;
-}
-
-li {
-  font-family: "Montserrat", serif;
-  font-weight: 500;
-  color: #C5C6C7;
-  margin-bottom: 1rem;
-}
-
-a {
-  color: #66FCF1;
-}
-
-p {
-  font-family: "Montserrat", serif;
-  font-weight: 500;
-  color: #C5C6C7;
 }
 /*# sourceMappingURL=main.css.map */
