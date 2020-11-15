@@ -1,0 +1,22 @@
+{
+  "name": "personal-website-revised",
+  "version": "1.0.0",
+  "description": "Testing some design updates for my portfolio re-design.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tmoss0/Website-Revision-v1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tmoss0/Website-Revision-v1/issues"
+  },
+  "homepage": "https://github.com/tmoss0/Website-Revision-v1#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.3"
+  }
+}

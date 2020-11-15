@@ -7,21 +7,20 @@
     <title>Tim Moss Portfolio</title>
 
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@500;600;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
 
-    <link rel="stylesheet" href="bootstrap-4.5.3/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="/scss/main.css">   
 
 </head>
 
 <body>
     <nav class="nav justify-content-center p-3">
         <li class="nav-item" href="#">
-            <a href="#home" class="nav-link active">Home</a>
-        </li>
-        <li class="nav-item" href="#">
             <a href="#about" class="nav-link active">About</a>
-        </li>
+        </li>       
         <li class="nav-item" href="#">
             <a href="#resume" class="nav-link active">Resume</a>
         </li>
@@ -29,17 +28,48 @@
             <a href="#contact" class="nav-link active">Contact</a>
         </li>
     </nav>
+    <!-- <nav class="navbar navbar-expand-md justify-content-center">
+        <a href="/" class="navbar-brand d-flex w-50 mr-auto">Navbar 3</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar3">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse w-100" id="collapsingNavbar3">
+            <ul class="navbar-nav w-100 justify-content-center">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Resume</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fab fa-github"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Right</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Right</a>
+                </li>
+            </ul>
+        </div>
+    </nav> -->
+
+
     <div class="container-fluid">
         <section class="section intro-section">
             <div class="content-container hidden">
                 <h1 class="text-center display-3 mb-5"><u>Tim Moss</u></h1>
                 <h2 class="text-center mb-4">Front-End Web Developer</h2>
-                <h2 class="text-center mb-4">HTML * CSS * JavaScript * ReactJS * Angular</h2>
                 <hr class="mx-4">
                 <p class="text-center">
-                    I am a Front-End Web Developer working in the advertising industry, with a focus in the Shopify and
-                    WordPress
-                    platforms.
+                    I am a Front-End Web Developer working in the advertising industry. As a developer, I primarily
+                    utilize WordPress and Shopify platforms, but
+                    I continue to learn next languages as the industry continues to evolve.
                 </p>
             </div>
         </section>
@@ -59,7 +89,7 @@
                             industries, including
                             boutique
                             bakeries, high-end automotive detail shops and automotive parts shops.
-                        </p> 
+                        </p>
                         <p class="hidden">
                             One part of the website creation process I enjoy is being able to collaborate with my
                             clients in
@@ -75,103 +105,50 @@
                         <p class="hidden">
                             If you have any questions, please reach out to me <a href="#contact">here</a>
                         </p>
-                    </div>                    
+                    </div>
                 </article>
             </div>
-
         </section>
+
         <section class="section resume-section">
             <div class="content-container">
                 <h1 class="text-center display-3 mb-5 hidden" id="resume">
                     <u>Resume</u>
-                </h1>
-                <div class="job-details">
-                    <div class="job-position hidden">
-                        <h3 class="text-center mb-4">Theory Communication & Design</h3>
-                        <h3 class="text-center mb-4">Front-End Web Developer</h3>
-                        <h5 class="text-center mb-4">May 2017 - Present (Charlotte, NC)</h5>
-                    </div>
-                    <ul class="hidden">
-                        <li class="hidden">Builds, updates, and maintains websites for local businesses and numerous industry-leading automotive businesses including Mobil 1 and General Motors
-                        </li>
-                        <li class="hidden">Interacts with Account and Creative team members to discuss and prioritize website projects to satisfy client requests, then implements updates via WordPress utilizing HTML, CSS and JavaScript
-                        </li>
-                        <li class="hidden">Utilizes PHP, REST and JavaScript to interact with MailChimp API in order efficiently
-                            capture consumer information in a prospect list for client usage
-                        </li>
-                        <li class="hidden">Works on updating Shopify shops for clients in a variety of industries
-                        </li>
-                    </ul>
-                </div>
-                <hr>
-                <div class="job-details">
-                    <div class="job-position hidden">
-                        <h3 class="text-center mb-4">NC Wildlife Resources Commission</h3>
-                        <h3 class="text-center mb-4">Programmer</h3>
-                        <h5 class="text-center mb-4">September 2016 – January 2017 (Raleigh, NC)</h5>
-                    </div>
-                    <ul class="hidden">
-                        <li class="hidden">Utilized HTML and CSS to modify the layout and functionality of four internal webpages</li>
-                        <li class="hidden">Wrote Visual Basic code to generate a variety of data reports for survey data, animal data,
-                            angler data for a team of Wildlife Biologists
-                        </li>
-                        <li class="hidden">Worked with Project Manager and Business Analysts to determine the most efficient approach
-                            to resolve open tickets daily
-                        </li>
-                    </ul>
-                </div>
-                <hr>
-                <div class="job-details">
-                    <div class="job-position hidden">
-                        <h3 class="text-center mb-4">iD Tech Camps (Summer Job)</h3>
-                        <h3 class="text-center mb-4">Lead Instructor</h3>
-                        <h5 class="text-center mb-4">Summer 2012 – Summer 2016 (Chapel Hill, NC / Davidson, NC)</h5>
-                    </div>
-                    <ul class="hidden">
-                        <li class="hidden">Instructed eight students per week on the core concepts of game design and programming using
-                            applications such as Unreal Engine 4, Stencyl, Hammer Source Editor, C++, and Java
-                        </li>
-                        <li class="hidden">Prepared weekly lesson plans and monitored student performance with flexibility to adjust
-                            plans as necessary to account for student comprehension
-                        </li>
-                        <li class="hidden">Ensured that each student had a working project by the end of the camp week to show off
-                            their programming and design skills
-                        </li>
-                    </ul>
-                </div>
+                </h1>        
+                <div class="buttons-group hidden">
+                    <a class="btn-job btn" href="https://github.com/tmoss0/resume/blob/master/Tim%20Moss%20Web%20Dev%20Resume%20(2020).pdf" 
+                        rel="noopener noreferrer" target="_blank">View Resume</a>
+                    <a class="btn-job btn" href="https://github.com/tmoss0/resume/raw/master/Tim%20Moss%20Web%20Dev%20Resume%20(2020).pdf" 
+                        rel="noopener noreferrer" target="_blank">Download Resume</a>
+                </div>                
             </div>
         </section>
+
         <section class="section contact-section">
             <div class="content-container hidden">
                 <h1 class="text-center display-3 mb-5 hidden" id="contact">
                     <u>Contact</u>
                 </h1>
-                    <div class="contact-buttons-group hidden">
-                        <a class="btn-contact btn" href="https://www.linkedin.com/in/tmoss0" rel="noopener noreferrer" target="_blank">
-                            LinkedIn
-                        </a>
-                        <a class="btn-contact btn" href="mailto:tim@thmoss.com" rel="noopener noreferrer" target="_blank">
-                            Email
-                        </a>
-                        <a class="btn-contact btn" href="https://github.com/tmoss0" rel="noopener noreferrer" target="_blank">
-                            GitHub
-                        </a>
-                    </div>
+                <div class="buttons-group hidden">
+                    <a class="btn-contact btn" href="mailto:tim@thmoss.com" rel="noopener noreferrer" target="_blank">
+                        Email
+                    </a>
+                    <a class="btn-contact btn" href="https://www.linkedin.com/in/tmoss0" rel="noopener noreferrer"
+                        target="_blank">
+                        LinkedIn
+                    </a>
+                    <a class="btn-contact btn" href="https://github.com/tmoss0" rel="noopener noreferrer"
+                        target="_blank">
+                        GitHub
+                    </a>
+                </div>
             </div>
         </section>
+        <footer>
+        </footer>
     </div>
 
-    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
-        integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous">
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
-        integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous">
-    </script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
-        integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous">
-    </script>
-
-    <script type="text/javaScript" src="/main.js"></script>
+    <script type="text/javaScript" src="scripts/main.js"></script>
 </body>
 
 </html>
