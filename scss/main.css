@@ -10839,7 +10839,7 @@ html {
 }
 
 nav {
-  font-family: "Montserrat", serif;
+  font-family: "Titillium Web", sans-serif;
   border-bottom: 1px solid #C5C6C7;
   background-color: #0B0C10;
 }
@@ -10853,15 +10853,25 @@ nav a {
   color: #C5C6C7;
   -webkit-transition-duration: 0.4s;
           transition-duration: 0.4s;
+  font-family: "Teko", sans-serif;
 }
 
 nav a:hover {
   color: #66FCF1;
 }
 
-h1, h3, h5 {
-  font-family: "IBM Plex Serif", serif;
+h1, h2 {
+  font-family: "Teko", sans-serif;
   color: #66FCF1;
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 72px;
+}
+
+h2 {
+  font-size: 36px;
 }
 
 hr {
@@ -10874,7 +10884,7 @@ ul {
 }
 
 li {
-  font-family: "Montserrat", serif;
+  font-family: "Titillium Web", sans-serif;
   font-weight: 500;
   color: #C5C6C7;
   margin-bottom: 1rem;
@@ -10885,12 +10895,25 @@ a {
 }
 
 p {
-  font-family: "Montserrat", serif;
+  font-family: "Titillium Web", sans-serif;
   font-weight: 500;
   color: #C5C6C7;
+  font-weight: 500;
 }
 
 /*** Classes ***/
+.main-logo {
+  height: 100px;
+}
+
+.navbar-toggler {
+  background-color: #C5C6C7;
+}
+
+.navbar-toggler-icon {
+  color: #0B0C10;
+}
+
 .intro-section {
   background: #C5C6C7;
   margin: auto;
@@ -10954,7 +10977,7 @@ p {
   padding: 5px 0 5px;
   width: 100%;
   font-size: 18px;
-  font-family: "Montserrat", serif;
+  font-family: "Titillium Web", sans-serif;
   font-weight: bold;
   background-color: transparent;
   border: 1px solid #005c73;

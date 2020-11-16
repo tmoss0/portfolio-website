@@ -6,94 +6,81 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tim Moss Portfolio</title>
 
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@500;600;700&display=swap" rel="stylesheet">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
-        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&family=Titillium+Web:wght@300;400;600;700;900&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700;900&display=swap" rel="stylesheet"> 
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <link rel="stylesheet" href="/scss/main.css">   
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/scss/main.css">
 </head>
-
-<body>
-    <nav class="nav justify-content-center p-3">
-        <li class="nav-item" href="#">
-            <a href="#about" class="nav-link active">About</a>
-        </li>       
-        <li class="nav-item" href="#">
-            <a href="#resume" class="nav-link active">Resume</a>
-        </li>
-        <li class="nav-item" href="#">
-            <a href="#contact" class="nav-link active">Contact</a>
-        </li>
-    </nav>
-    <!-- <nav class="navbar navbar-expand-md justify-content-center">
-        <a href="/" class="navbar-brand d-flex w-50 mr-auto">Navbar 3</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar3">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="navbar-collapse collapse w-100" id="collapsingNavbar3">
-            <ul class="navbar-nav w-100 justify-content-center">
+<header>
+    <nav class="navbar navbar-expand-md" role="navigation">
+        <div class="navbar-collapse collapse multi-collapse order-1 order-md-0">
+            <ul class="navbar-nav ml-auto text-center">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link active" href="#about">About</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Resume</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                <li class="nav-item active">
+                    <a class="nav-link active" href="#resume">Resume</a>
                 </li>
             </ul>
-            <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
-                <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="fab fa-github"></i></a>
+        </div>  
+        <div class="mx-auto order-0 order-md-1 position-relative">
+            <a class="mx-auto" href="#">
+                <img src="images\TM-logo-neg.png" class="main-logo">
+            </a>
+            <button class="navbar-toggler darken-3" type="button" data-toggle="collapse" data-target=".multi-collapse"
+                aria-controls="multi-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa fa-bars"></i>
+            </button>
+        </div>
+        <div class="navbar-collapse collapse multi-collapse order-2 order-md-2">
+            <ul class="navbar-nav mr-auto text-center">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#projects">Projects</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Right</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Right</a>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#contact">Contact</a>
                 </li>
             </ul>
         </div>
-    </nav> -->
-
-
+    </nav>
+</header>
+<body>
     <div class="container-fluid">
         <section class="section intro-section">
             <div class="content-container hidden">
-                <h1 class="text-center display-3 mb-5"><u>Tim Moss</u></h1>
+                <h1 class="text-center mb-4"><u>Tim Moss</u></h1>
                 <h2 class="text-center mb-4">Front-End Web Developer</h2>
                 <hr class="mx-4">
-                <p class="text-center">
-                    I am a Front-End Web Developer working in the advertising industry. As a developer, I primarily
-                    utilize WordPress and Shopify platforms, but
-                    I continue to learn next languages as the industry continues to evolve.
+                <p>
+                    I am a Front-End Web Developer working in the advertising and marketing industry. As a web developer, I primarily work with
+                    <b>HTML</b>, <b>CSS</b> and <b>JavaScript</b>. I also utilize the <b>WordPress</b> and <b>Shopify</b> platforms
+                    at my current role. I also enjoy keeping up with the latest web technologies and I'm always looking to improve my skillset
+                    and learn the newest frameworks and libraries. The most recent technologies I've worked with are <b>ReactJS</b>, <b>Gatsby</b> and 
+                    <b>Webpack</b>.
+                </p>
+                <p>
+                    <i>Please note that my site is not final and I am working to constantly improve functionality and design!</i>
                 </p>
             </div>
         </section>
         <section class="section about-section">
-            <div class="content-container ">
-                <h1 class="text-center display-3 mb-5 hidden" id="about">
+            <div class="content-container">
+                <h1 class="text-center mb-4 hidden" id="about">
                     <u>About</u>
                 </h1>
                 <article>
-                    <div class="mb-5">
+                    <div>
                         <p class="hidden">
                             I am an experienced Front-End Web Developer in Charlotte, NC with a demonstrated history of
-                            three
-                            years working in
-                            the
-                            marketing and advertising industry. I have built dynamic websites for clients in numerous
-                            industries, including
-                            boutique
+                            three years working in the marketing and advertising industry. I have built dynamic websites 
+                            for clients in numerous industries, including boutique
                             bakeries, high-end automotive detail shops and automotive parts shops.
                         </p>
                         <p class="hidden">
                             One part of the website creation process I enjoy is being able to collaborate with my
-                            clients in
-                            order to bring their
+                            clients in  order to bring their
                             dreams to life and help their business flourish. Nothing is more satisfying than meeting
                             with a
                             client in person,
@@ -112,21 +99,23 @@
 
         <section class="section resume-section">
             <div class="content-container">
-                <h1 class="text-center display-3 mb-5 hidden" id="resume">
+                <h1 class="text-center mb-4 hidden" id="resume">
                     <u>Resume</u>
-                </h1>        
+                </h1>
                 <div class="buttons-group hidden">
-                    <a class="btn-job btn" href="https://github.com/tmoss0/resume/blob/master/Tim%20Moss%20Web%20Dev%20Resume%20(2020).pdf" 
+                    <a class="btn-job btn"
+                        href="https://github.com/tmoss0/resume/blob/master/Tim%20Moss%20Web%20Dev%20Resume%20(2020).pdf"
                         rel="noopener noreferrer" target="_blank">View Resume</a>
-                    <a class="btn-job btn" href="https://github.com/tmoss0/resume/raw/master/Tim%20Moss%20Web%20Dev%20Resume%20(2020).pdf" 
+                    <a class="btn-job btn"
+                        href="https://github.com/tmoss0/resume/raw/master/Tim%20Moss%20Web%20Dev%20Resume%20(2020).pdf"
                         rel="noopener noreferrer" target="_blank">Download Resume</a>
-                </div>                
+                </div>
             </div>
         </section>
 
         <section class="section contact-section">
             <div class="content-container hidden">
-                <h1 class="text-center display-3 mb-5 hidden" id="contact">
+                <h1 class="text-center mb-4 hidden" id="contact">
                     <u>Contact</u>
                 </h1>
                 <div class="buttons-group hidden">
@@ -149,6 +138,8 @@
     </div>
 
     <script type="text/javaScript" src="scripts/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script type="text/javaScript" src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 
 </html>

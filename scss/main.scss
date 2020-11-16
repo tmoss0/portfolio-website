@@ -29,7 +29,8 @@ nav {
 
 	a {
 		color: $grey;
-		transition-duration: 0.4s;
+        transition-duration: 0.4s;
+        font-family: $header-text;
 	}
 
 	a:hover {
@@ -37,9 +38,18 @@ nav {
 	}
 }
 
-h1, h3, h5 {
+h1, h2 {
 	font-family: $header-text;
-	color: $light-blue
+    color: $light-blue;
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 72px;
+}
+
+h2 {
+    font-size: 36px;
 }
 
 hr {
@@ -61,10 +71,22 @@ a {
 }
 
 p {
-	@include body-font;
+    @include body-font;
+    font-weight: 500;
 }
 
 /*** Classes ***/
+.main-logo {
+    height: 100px;
+}
+
+.navbar-toggler {
+    background-color: $grey;
+}
+
+.navbar-toggler-icon {
+    color: $blackish;
+}
 
 .intro-section {
 	background: $grey;
@@ -87,7 +109,7 @@ p {
     background: $grey;
 
     h1, h3, h5 {
-		color: $dark-blue;
+        color: $dark-blue;
 	}
 
     li {
