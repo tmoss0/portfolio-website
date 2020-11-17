@@ -8,4 +8,4 @@ https://thmoss.com
 
 ## Image preview
 
-![Portfolio Image](https://raw.githubusercontent.com/tmoss0/resume/master/Screenshot_2020-11-15%20Tim%20Moss%20Portfolio.png)
+![Portfolio Image](https://raw.githubusercontent.com/tmoss0/resume/master/Screenshot_2020-11-17%20Tim%20Moss%20Portfolio.png)
