@@ -88,8 +88,8 @@ p {
     color: $blackish;
 }
 
-.intro-section {
-	background: $grey;
+.light-grey {
+    background: $grey;
 	margin: auto;
 
 	h1, h2, h5 {
@@ -101,20 +101,17 @@ p {
 	}
 }
 
-.about-section {
+.dark-grey {
     background: $dark-grey;
-}
+	margin: auto;
 
-.resume-section {
-    background: $grey;
-
-    h1, h3, h5 {
-        color: $dark-blue;
+	h1, h2, h5 {
+		color: $light-blue;
 	}
 
-    li {
-        color: $blackish;
-    }
+	p {
+		color: $grey;
+	}
 }
 
 .contact-section {
@@ -151,21 +148,22 @@ p {
 	cursor: pointer;
 }
 
-.btn-contact {
+.btn-dark-bg {
 	color: $grey;
 }
 
-.btn-contact:hover {
-	background-color: $dark-blue;
+.btn-dark-bg:hover {
+    background-color: $dark-blue;
+    color: $grey;
+}
+
+.btn-light-bg {
 	color: $blackish;
 }
 
-.btn-job {
-	color: $blackish;
-}
-
-.btn-job:hover {
-	background-color: $dark-blue;
+.btn-light-bg:hover {
+    background-color: $blackish;
+    border-color: $blackish;
 	color: $grey;
 }
 

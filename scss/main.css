@@ -10914,33 +10914,30 @@ p {
   color: #0B0C10;
 }
 
-.intro-section {
+.light-grey {
   background: #C5C6C7;
   margin: auto;
 }
 
-.intro-section h1, .intro-section h2, .intro-section h5 {
+.light-grey h1, .light-grey h2, .light-grey h5 {
   color: #005c73;
 }
 
-.intro-section p {
+.light-grey p {
   color: #0B0C10;
 }
 
-.about-section {
+.dark-grey {
   background: #1F2833;
+  margin: auto;
 }
 
-.resume-section {
-  background: #C5C6C7;
+.dark-grey h1, .dark-grey h2, .dark-grey h5 {
+  color: #66FCF1;
 }
 
-.resume-section h1, .resume-section h3, .resume-section h5 {
-  color: #005c73;
-}
-
-.resume-section li {
-  color: #0B0C10;
+.dark-grey p {
+  color: #C5C6C7;
 }
 
 .contact-section {
@@ -10986,21 +10983,22 @@ p {
   cursor: pointer;
 }
 
-.btn-contact {
+.btn-dark-bg {
   color: #C5C6C7;
 }
 
-.btn-contact:hover {
+.btn-dark-bg:hover {
   background-color: #005c73;
+  color: #C5C6C7;
+}
+
+.btn-light-bg {
   color: #0B0C10;
 }
 
-.btn-job {
-  color: #0B0C10;
-}
-
-.btn-job:hover {
-  background-color: #005c73;
+.btn-light-bg:hover {
+  background-color: #0B0C10;
+  border-color: #0B0C10;
   color: #C5C6C7;
 }
 
