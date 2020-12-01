@@ -136,6 +136,13 @@ p {
 	grid-column-gap: 20px;
 }
 
+.buttons-contact-group {
+    justify-content: center;
+	display: flex;
+	grid-auto-flow: column;
+	grid-column-gap: 160px;
+}
+
 .btn {
     padding: 5px 0 5px;
 	width: 100%;
@@ -144,7 +151,8 @@ p {
 	font-weight: bold;
 	background-color: transparent;
 	border: 1px solid $dark-blue;
-	transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    align-items: center;
 	cursor: pointer;
 }
 
@@ -154,17 +162,16 @@ p {
 
 .btn-dark-bg:hover {
     background-color: $dark-blue;
-    color: $grey;
+    color: white;
 }
 
 .btn-light-bg {
 	color: $blackish;
 }
 
-.btn-light-bg:hover {
-    background-color: $blackish;
-    border-color: $blackish;
-	color: $grey;
+.btn-light-bg:hover { 
+    background-color: $dark-blue;
+	color: white;
 }
 
 .job-details, .job-position {
@@ -232,6 +239,10 @@ p {
     .container-fluid {
         margin-top: 0;
         margin-bottom: 0;
+    }
+
+    .buttons-contact-group {
+        grid-column-gap: 60px;
     }
 }
 

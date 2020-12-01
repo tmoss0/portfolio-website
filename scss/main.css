@@ -10970,6 +10970,17 @@ p {
   grid-column-gap: 20px;
 }
 
+.buttons-contact-group {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  grid-auto-flow: column;
+  grid-column-gap: 160px;
+}
+
 .btn {
   padding: 5px 0 5px;
   width: 100%;
@@ -10980,6 +10991,9 @@ p {
   border: 1px solid #005c73;
   -webkit-transition-duration: 0.4s;
           transition-duration: 0.4s;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   cursor: pointer;
 }
 
@@ -10989,7 +11003,7 @@ p {
 
 .btn-dark-bg:hover {
   background-color: #005c73;
-  color: #C5C6C7;
+  color: white;
 }
 
 .btn-light-bg {
@@ -10997,9 +11011,8 @@ p {
 }
 
 .btn-light-bg:hover {
-  background-color: #0B0C10;
-  border-color: #0B0C10;
-  color: #C5C6C7;
+  background-color: #005c73;
+  color: white;
 }
 
 .job-details, .job-position {
@@ -11079,6 +11092,9 @@ p {
   .container-xl {
     margin-top: 0;
     margin-bottom: 0;
+  }
+  .buttons-contact-group {
+    grid-column-gap: 60px;
   }
 }
 /*# sourceMappingURL=main.css.map */
