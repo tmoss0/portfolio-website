@@ -1,0 +1,61 @@
+html {
+    scroll-behavior: smooth;
+}
+
+nav {
+	font-family: $body-text;
+	border-bottom: 1px solid $grey;
+	background-color: $blackish;
+
+	li {
+        font-size: 20px;
+        margin: 1rem .5rem;
+	}
+
+	a {
+		color: $grey;
+        transition-duration: 0.4s;
+        font-family: $header-text;
+	}
+
+	a:hover {
+		color: $light-blue;		
+	}
+}
+
+h1, h2 {
+	font-family: $header-text;
+    color: $light-blue;
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 72px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+hr {
+    background-color: $blackish;
+    margin: 0 0 2rem 0;
+}
+
+ul {
+    margin-bottom: 0;
+}
+
+li {
+	@include body-font;
+	margin-bottom: 1rem;
+}
+
+a {
+	color: $light-blue;
+}
+
+p {
+    @include body-font;
+    font-weight: 500;
+}

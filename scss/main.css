@@ -10834,73 +10834,6 @@ a.text-dark:hover, a.text-dark:focus {
   opacity: 0;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
-nav {
-  font-family: "Titillium Web", sans-serif;
-  border-bottom: 1px solid #C5C6C7;
-  background-color: #0B0C10;
-}
-
-nav li {
-  font-size: 20px;
-  margin: 1rem .5rem;
-}
-
-nav a {
-  color: #C5C6C7;
-  -webkit-transition-duration: 0.4s;
-          transition-duration: 0.4s;
-  font-family: "Teko", sans-serif;
-}
-
-nav a:hover {
-  color: #66FCF1;
-}
-
-h1, h2 {
-  font-family: "Teko", sans-serif;
-  color: #66FCF1;
-  font-weight: 600;
-}
-
-h1 {
-  font-size: 72px;
-}
-
-h2 {
-  font-size: 36px;
-}
-
-hr {
-  background-color: #0B0C10;
-  margin: 0 0 2rem 0;
-}
-
-ul {
-  margin-bottom: 0;
-}
-
-li {
-  font-family: "Titillium Web", sans-serif;
-  font-weight: 500;
-  color: #C5C6C7;
-  margin-bottom: 1rem;
-}
-
-a {
-  color: #66FCF1;
-}
-
-p {
-  font-family: "Titillium Web", sans-serif;
-  font-weight: 500;
-  color: #C5C6C7;
-  font-weight: 500;
-}
-
 /*** Classes ***/
 .main-logo {
   height: 100px;
@@ -10927,6 +10860,15 @@ p {
   color: #0B0C10;
 }
 
+.light-grey .btn {
+  color: #0B0C10;
+}
+
+.light-grey .btn:hover {
+  background-color: #005c73;
+  color: white;
+}
+
 .dark-grey {
   background: #1F2833;
   margin: auto;
@@ -10938,6 +10880,40 @@ p {
 
 .dark-grey p {
   color: #C5C6C7;
+}
+
+.dark-grey .btn {
+  color: #C5C6C7;
+}
+
+.dark-grey .btn:hover {
+  background-color: #005c73;
+  color: white;
+}
+
+.css-background {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url("../images/css_background.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/css_background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-clip: border-box;
+}
+
+.react-background {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url("../images/react_background.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/react_background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-clip: border-box;
+}
+
+.react-background .btn {
+  color: #C5C6C7;
+}
+
+.react-background .btn:hover {
+  background-color: #005c73;
+  color: white;
 }
 
 .contact-section {
@@ -10995,24 +10971,6 @@ p {
       -ms-flex-align: center;
           align-items: center;
   cursor: pointer;
-}
-
-.btn-dark-bg {
-  color: #C5C6C7;
-}
-
-.btn-dark-bg:hover {
-  background-color: #005c73;
-  color: white;
-}
-
-.btn-light-bg {
-  color: #0B0C10;
-}
-
-.btn-light-bg:hover {
-  background-color: #005c73;
-  color: white;
 }
 
 .job-details, .job-position {
@@ -11096,5 +11054,72 @@ p {
   .buttons-contact-group {
     grid-column-gap: 60px;
   }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+nav {
+  font-family: "Titillium Web", sans-serif;
+  border-bottom: 1px solid #C5C6C7;
+  background-color: #0B0C10;
+}
+
+nav li {
+  font-size: 20px;
+  margin: 1rem .5rem;
+}
+
+nav a {
+  color: #C5C6C7;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+  font-family: "Teko", sans-serif;
+}
+
+nav a:hover {
+  color: #66FCF1;
+}
+
+h1, h2 {
+  font-family: "Teko", sans-serif;
+  color: #66FCF1;
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 72px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+hr {
+  background-color: #0B0C10;
+  margin: 0 0 2rem 0;
+}
+
+ul {
+  margin-bottom: 0;
+}
+
+li {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 500;
+  color: #C5C6C7;
+  margin-bottom: 1rem;
+}
+
+a {
+  color: #66FCF1;
+}
+
+p {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 500;
+  color: #C5C6C7;
+  font-weight: 500;
 }
 /*# sourceMappingURL=main.css.map */
