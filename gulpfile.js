@@ -29,17 +29,17 @@ function jsTask() {
         .pipe(concat('all.js'))
         .pipe(terser())
         .pipe(sourcemaps.write('.'))
-        .pipe(dest('dist/assets/js'));
+        .pipe(dest('dist/js'));
 }
 
 // Minifies and maps the CSS files 
 function cssTask() {
     return src(cssPath)
         .pipe(sourcemaps.init())
-        .pipe(concat('style.css'))
+        .pipe(concat('main.css'))
         .pipe(postcss([autoprefixer(), cssnano()]))
         .pipe(sourcemaps.write('.'))
-        .pipe(dest('dist/assets/css'));
+        .pipe(dest('dist/styles'));
 }
 
 // Watches and runs on updates
