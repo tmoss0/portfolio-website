@@ -4,7 +4,6 @@
 
     function init() {
         elements = document.querySelectorAll('.hidden');
-        console.log(elements);
         windowHeight = window.innerHeight;
     }
 

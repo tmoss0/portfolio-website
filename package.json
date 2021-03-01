@@ -1,10 +1,13 @@
 {
   "name": "personal-website-revised",
   "version": "1.0.0",
-  "description": "Testing some design updates for my portfolio re-design.",
-  "main": "main.js",
+  "description": "",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.6.0"
   },
   "repository": {
     "type": "git",
@@ -16,7 +19,14 @@
     "url": "https://github.com/tmoss0/Website-Revision-v1/issues"
   },
   "homepage": "https://github.com/tmoss0/Website-Revision-v1#readme",
-  "dependencies": {
-    "bootstrap": "^4.5.3"
+  "devDependencies": {
+    "autoprefixer": "^10.2.4",
+    "cssnano": "^4.1.10",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-postcss": "^9.0.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-terser": "^2.0.1"
   }
 }
