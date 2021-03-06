@@ -9,7 +9,7 @@ const cssnano = require('cssnano');
 const autoprefixer = require('autoprefixer');
 const { src, series, parallel, dest, watch } = require('gulp');
 
-const jsPath = 'src/scripts/*.js';
+const jsPath = 'src/js/*.js';
 const cssPath = 'src/styles/*.css';
 
 // Migrates HTML files 
