@@ -1,2 +1,28 @@
-!function(){var e,n;function i(){e=document.querySelectorAll(".hidden"),n=window.innerHeight}function t(){for(var i=0;i<e.length;i++){var t=e[i];e[i].getBoundingClientRect().top-n<=0&&(t.classList.add("fade-in-element"),t.classList.remove("hidden"))}}window.addEventListener("scroll",t),window.addEventListener("resize",i),i(),t()}();
+// (function () {
+//     var elements;
+//     var windowHeight;
+
+//     function init() {
+//         elements = document.querySelectorAll('.hidden');
+//         windowHeight = window.innerHeight;
+//     }
+
+//     function checkPosition() {
+//         for (var i = 0; i < elements.length; i++) {
+//             var element = elements[i];
+//             var positionFromTop = elements[i].getBoundingClientRect().top;
+
+//             if (positionFromTop - windowHeight <= 0) {
+//                 element.classList.add('fade-in-element');
+//                 element.classList.remove('hidden');
+//             }
+//         }
+//     }
+
+//     window.addEventListener('scroll', checkPosition);
+//     window.addEventListener('resize', init);
+
+//     init();
+//     checkPosition();
+// })();
 //# sourceMappingURL=all.js.map
