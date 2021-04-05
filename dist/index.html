@@ -5,12 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tim Moss | Front-End Web Developer</title>
-    <link rel="icon" type="image/png" href="/images/TM-logo-neg.png"/>
+    <link rel="shortcut icon" type="image/png" href="./images/TM-logo-neg.png"/>
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Teko:wght@500;600&family=Titillium+Web:wght@400;600;700&display=swap" rel="stylesheet">  
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="./styles/main.css">
+
+    <link rel="preload" href="./styles/main.css" as="style" onload="this.rel='stylesheet'">
+    <link rel="stylesheet" href="./styles/main.css" media="print" onload="this.media='all'">
 </head>
 <header>
     <nav class="navbar navbar-expand-md" role="navigation">
@@ -26,6 +28,7 @@
         </div>  
         <div class="mx-auto order-0 order-md-1 position-relative">
             <a class="mx-auto" href="#">
+                <source srcset="./images/TM-logo-neg.webp" type="image/webp">
                 <img src="./images/TM-logo-neg.png" class="main-logo">
             </a>
             <button class="navbar-toggler darken-3" type="button" data-toggle="collapse" data-target=".multi-collapse"
@@ -106,17 +109,14 @@
                         <div class="row justify-content-center mb-4">
                             <div class="col-md-6">
                                 <a class="btn"
-                                href="https://github.com/tmoss0/resume/blob/master/Tim%20Moss%20Web%20Dev%20Resume%20(2021).pdf"
-                                rel="noopener noreferrer" target="_blank">
+                                href="https://github.com/tmoss0/resume/blob/master/Tim%20Moss%20Web%20Dev%20Resume%20(2021).pdf">
                                     View My Resume
                                 </a>
                             </div> 
                         </div>
                         <div class="row justify-content-center">
                             <div class="col-md-6">
-                                <a class="btn"
-                                href="https://github.com/tmoss0/resume/raw/master/Tim%20Moss%20Web%20Dev%20Resume%20(2021).pdf"
-                                rel="noopener noreferrer" target="_blank">
+                                <a class="btn" href="https://github.com/tmoss0/resume/raw/master/Tim%20Moss%20Web%20Dev%20Resume%20(2021).pdf" download>
                                     Download My Resume
                                 </a>
                             </div>                        
@@ -149,15 +149,13 @@
                     <u>Contact</u>
                 </h1>
                 <div class="buttons-contact-group">
-                    <a href="mailto:tim@thmoss.com" rel="noopener noreferrer" target="_blank">
+                    <a href="mailto:tim@thmoss.com">
                         <i class="fa fa-envelope-square fa-2x"></i>
                     </a>
-                    <a href="https://www.linkedin.com/in/tmoss0" rel="noopener noreferrer"
-                        target="_blank">
+                    <a href="https://www.linkedin.com/in/tmoss0">
                         <i class="fa fa-linkedin fa-2x"></i>
                     </a>
-                    <a href="https://github.com/tmoss0" rel="noopener noreferrer"
-                        target="_blank">
+                    <a href="https://github.com/tmoss0">
                         <i class="fa fa-github fa-2x"></i>
                     </a>
                 </div>
@@ -167,7 +165,6 @@
         </footer>
     </div>
 
-    <script type="text/javaScript" src="js/all.js"></script>
     <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>

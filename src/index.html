@@ -5,14 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tim Moss | Front-End Web Developer</title>
-    <link rel="icon" type="image/png" href="./images/TM-logo-neg.png" />
+    <link rel="shortcut icon" type="image/png" href="./images/TM-logo-neg.png"/>
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Teko:wght@500;600&family=Titillium+Web:wght@400;600;700&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@500;600&family=Titillium+Web:wght@400;600;700&display=swap" rel="stylesheet">  
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="./styles/main.css">
+
+    <link rel="preload" href="./styles/main.css" as="style" onload="this.rel='stylesheet'">
+    <link rel="stylesheet" href="./styles/main.css" media="print" onload="this.media='all'">
 </head>
 <header>
     <nav class="navbar navbar-expand-md" role="navigation">
@@ -25,9 +25,10 @@
                     <a class="nav-link active" href="#resume">Resume</a>
                 </li>
             </ul>
-        </div>
+        </div>  
         <div class="mx-auto order-0 order-md-1 position-relative">
             <a class="mx-auto" href="#">
+                <source srcset="./images/TM-logo-neg.webp" type="image/webp">
                 <img src="./images/TM-logo-neg.png" class="main-logo">
             </a>
             <button class="navbar-toggler darken-3" type="button" data-toggle="collapse" data-target=".multi-collapse"
@@ -47,7 +48,6 @@
         </div>
     </nav>
 </header>
-
 <body>
     <div class="container-fluid">
         <section class="light-grey">
@@ -57,17 +57,16 @@
                 <hr class="mx-4">
                 <article>
                     <p>
-                        I am a Front-End Web Developer working in the advertising and marketing industry. As a web
-                        developer, I primarily work with <b>HTML</b>, <b>CSS</b> and <b>JavaScript</b>. I also utilize the <b>WordPress</b> and
-                        <b>Shopify</b> platforms at my current role. In my free time, I enjoy keeping up with the latest web technologies and I'm
-                        always looking to improve my skillset and learn the newest frameworks and libraries. The most recent technologies I've worked with are
-                        <b>ReactJS</b>, <b>Gatsby</b> and  <b>Gulp</b>.
+                        I am a Front-End Web Developer working in the advertising and marketing industry. As a web developer, I primarily work with
+                        <b>HTML</b>, <b>CSS</b> and <b>JavaScript</b>. I also utilize the <b>WordPress</b> and <b>Shopify</b> platforms
+                        at my current role. In my free time, I enjoy keeping up with the latest web technologies and I'm always looking to improve my skillset
+                        and learn the newest frameworks and libraries. The most recent technologies I've worked with are <b>ReactJS</b>, <b>Gatsby</b> and 
+                        <b>Gulp</b>.
                     </p>
                     <p>
-                        <i>Please note that my site is not final and I am working to constantly improve functionality
-                            and design!</i>
+                        <i>Please note that my site is not final and I am working to constantly improve functionality and design!</i>
                     </p>
-                </article>
+                </article>               
             </div>
         </section>
         <section class="css-background">
@@ -75,21 +74,28 @@
                 <h1 class="text-center mb-4" id="about">
                     <u>About</u>
                 </h1>
-                <p>
-                    I am an experienced Front-End Web Developer in Charlotte, NC with a demonstrated history of
-                    three years working in the marketing and advertising industry. I have built dynamic websites
-                    for clients in numerous industries, including boutique bakeries, high-end automotive detail 
-                    shops and automotive parts shops.
-                </p>
-                <p>
-                    One part of the website creation process I enjoy is being able to collaborate with my
-                    clients in order to bring their dreams to life and help their business flourish. Nothing is more satisfying than meeting
-                    with a client in person, understanding what market they are a part of, what clients they are targeting, then creating
-                    a solution for their web-based needs.
-                </p>
-                <p>
-                    If you have any questions, please reach out to me <a href="#contact">here</a>
-                </p>
+                <article>
+                        <p class="">
+                            I am an experienced Front-End Web Developer in Charlotte, NC with a demonstrated history of
+                            three years working in the marketing and advertising industry. I have built dynamic websites 
+                            for clients in numerous industries, including boutique
+                            bakeries, high-end automotive detail shops and automotive parts shops.
+                        </p>
+                        <p class="">
+                            One part of the website creation process I enjoy is being able to collaborate with my
+                            clients in  order to bring their
+                            dreams to life and help their business flourish. Nothing is more satisfying than meeting
+                            with a
+                            client in person,
+                            understanding what market they are a part of, what clients they are targeting, then creating
+                            a
+                            solution for their
+                            web-based needs.
+                        </p>
+                        <p class="">
+                            If you have any questions, please reach out to me <a href="#contact">here</a>
+                        </p>
+                </article>
             </div>
         </section>
 
@@ -103,22 +109,19 @@
                         <div class="row justify-content-center mb-4">
                             <div class="col-md-6">
                                 <a class="btn"
-                                    href="https://github.com/tmoss0/resume/blob/master/Tim%20Moss%20Web%20Dev%20Resume%20(2021).pdf"
-                                    rel="noopener noreferrer">
+                                href="https://github.com/tmoss0/resume/blob/master/Tim%20Moss%20Web%20Dev%20Resume%20(2021).pdf">
                                     View My Resume
                                 </a>
-                            </div>
+                            </div> 
                         </div>
                         <div class="row justify-content-center">
                             <div class="col-md-6">
-                                <a class="btn"
-                                    href="https://github.com/tmoss0/resume/raw/master/Tim%20Moss%20Web%20Dev%20Resume%20(2021).pdf"
-                                    rel="noopener noreferrer">
+                                <a class="btn" href="https://github.com/tmoss0/resume/raw/master/Tim%20Moss%20Web%20Dev%20Resume%20(2021).pdf" download>
                                     Download My Resume
                                 </a>
-                            </div>
-                        </div>
-                    </div>
+                            </div>                        
+                        </div>         
+                    </div>                            
                 </div>
             </div>
         </section>
@@ -131,12 +134,11 @@
                 <div class="buttons-group">
                     <div class="container">
                         <div class="row justify-content-center mb-4">
-                            <div class="col-md-6 text-center">
-                                <div class="github-card" data-github="tmoss0" data-width="auto" data-height="150"
-                                    data-theme="default"></div>
+                            <div class="col-md-6 text-center">                            
+                                <div class="github-card" data-github="tmoss0" data-width="auto" data-height="150" data-theme="default" ></div>
                             </div>
-                        </div>
-                    </div>
+                        </div>     
+                    </div>                   
                 </div>
             </div>
         </section>
@@ -147,13 +149,13 @@
                     <u>Contact</u>
                 </h1>
                 <div class="buttons-contact-group">
-                    <a href="mailto:tim@thmoss.com" rel="noopener noreferrer" target="_blank">
+                    <a href="mailto:tim@thmoss.com">
                         <i class="fa fa-envelope-square fa-2x"></i>
                     </a>
-                    <a href="https://www.linkedin.com/in/tmoss0" rel="noopener noreferrer" target="_blank">
+                    <a href="https://www.linkedin.com/in/tmoss0">
                         <i class="fa fa-linkedin fa-2x"></i>
                     </a>
-                    <a href="https://github.com/tmoss0" rel="noopener noreferrer" target="_blank">
+                    <a href="https://github.com/tmoss0">
                         <i class="fa fa-github fa-2x"></i>
                     </a>
                 </div>
@@ -163,11 +165,8 @@
         </footer>
     </div>
 
-    <script type="text/javaScript" src="js/main.js"></script>
     <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-    </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
 </body>
 
