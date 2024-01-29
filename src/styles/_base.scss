@@ -1,35 +1,35 @@
 /*** Colors ***/
-$light-blue: #66FCF1;
+$light-blue: #66fcf1;
 $dark-blue: #005c73;
-$grey: #C5C6C7;
-$dark-grey: #1F2833;
-$blackish: #0B0C10;
+$grey: #c5c6c7;
+$dark-grey: #1f2833;
+$blackish: #0b0c10;
 
 /*** Fonts ***/
 $header-text: 'Teko', sans-serif;
 $body-text: 'Titillium Web', sans-serif;
 
 @mixin body-font {
-	font-family: $body-text;
-	font-weight: 500;
-	color: $grey;
+  font-family: $body-text;
+  font-weight: 500;
+  color: $grey;
 }
 
 @keyframes fade-in {
-    from {
-        opacity: 0;
-        transform: scale(.7, .7)
-    }
+  from {
+    opacity: 0;
+    transform: scale(0.7, 0.7);
+  }
 
-    to {
-        opacity: 1;
-    }
+  to {
+    opacity: 1;
+  }
 }
 
 .fade-in-element {
-    animation: fade-in 1.4s;
+  animation: fade-in 1.4s;
 }
 
 .hidden {
-    opacity: 0;
+  opacity: 0;
 }

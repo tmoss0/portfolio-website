@@ -1,203 +1,203 @@
 /*** Classes ***/
 .main-logo {
-    height: 100px;
-    width: auto;
+  height: 100px;
+  width: auto;
 }
 
 .navbar-toggler {
-    background-color: $grey;
+  background-color: $grey;
 }
 
 .navbar-toggler-icon {
-    color: $blackish;
+  color: $blackish;
 }
 
 .light-grey {
-    background: $grey;
-	margin: auto;
+  background: $grey;
+  margin: auto;
 
-	h1, h2, h5 {
-		color: $dark-blue;
-	}
+  h1,
+  h2,
+  h5 {
+    color: $dark-blue;
+  }
 
-	p {
-		color: $blackish;
-    }
-    
-    .btn {
-        color: $blackish;
-    }
+  p {
+    color: $blackish;
+  }
 
-    .btn:hover {
-        background-color: $dark-blue;
-        color: white;
-    }
+  .btn {
+    color: $blackish;
+  }
 
+  .btn:hover {
+    background-color: $dark-blue;
+    color: white;
+  }
 }
 
 .dark-grey {
-    background: $dark-grey;
-	margin: auto;
+  background: $dark-grey;
+  margin: auto;
 
-	h1, h2, h5 {
-		color: $light-blue;
-	}
+  h1,
+  h2,
+  h5 {
+    color: $light-blue;
+  }
 
-	p {
-		color: $grey;
-    }
-    
-    .btn {
-        color: $grey;
-    }
+  p {
+    color: $grey;
+  }
 
-    .btn:hover {
-        background-color: $dark-blue;
-        color: white;
-    }
+  .btn {
+    color: $grey;
+  }
+
+  .btn:hover {
+    background-color: $dark-blue;
+    color: white;
+  }
 }
 
 .css-background {
-    background: linear-gradient(rgba(0, 0, 0, 0.7),
-    rgba(0, 0, 0, 0.7)), url("../images/css_background.webp");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-clip: border-box;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/css_background.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-clip: border-box;
 }
 
 .react-background {
-    background: linear-gradient(rgba(0, 0, 0, 0.7),
-    rgba(0, 0, 0, 0.7)), url("../images/react_background.webp");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-clip: border-box;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/react_background.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-clip: border-box;
 
-    .btn {
-        color: $grey;
-    }
+  .btn {
+    color: $grey;
+  }
 
-    .btn:hover {
-        background-color: $dark-blue;
-        color: white;
-    }
+  .btn:hover {
+    background-color: $dark-blue;
+    color: white;
+  }
 }
 
 .contact-section {
-    background: $blackish;
+  background: $blackish;
 }
 
 .content-container {
-	margin: 0 auto;
-	max-width: 1264px;
-	padding: 100px;
+  margin: 0 auto;
+  max-width: 1264px;
+  padding: 100px;
 }
 
 .container-fluid {
-	padding-right: 0px;
-	padding-left: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
 }
 
 .buttons-group {
-	justify-content: space-around;
-	display: flex;
-	grid-auto-flow: column;
-	grid-column-gap: 20px;
+  justify-content: space-around;
+  display: flex;
+  grid-auto-flow: column;
+  grid-column-gap: 20px;
 }
 
 .buttons-contact-group {
-    justify-content: center;
-	display: flex;
-	grid-auto-flow: column;
-	grid-column-gap: 160px;
+  justify-content: center;
+  display: flex;
+  grid-auto-flow: column;
+  grid-column-gap: 160px;
 }
 
 .btn {
-    padding: 5px 0 5px;
-	width: 100%;
-	font-size: 18px;
-	font-family: $body-text;
-	font-weight: bold;
-	background-color: transparent;
-	border: 1px solid $dark-blue;
-    transition-duration: 0.4s;
-    align-items: center;
-	cursor: pointer;
+  padding: 5px 0 5px;
+  width: 100%;
+  font-size: 18px;
+  font-family: $body-text;
+  font-weight: bold;
+  background-color: transparent;
+  border: 1px solid $dark-blue;
+  transition-duration: 0.4s;
+  align-items: center;
+  cursor: pointer;
 }
 
-.job-details, .job-position {
-	margin-bottom: 2rem;
+.job-details,
+.job-position {
+  margin-bottom: 2rem;
 }
 
 .fade-in-section {
-    opacity: 0;
-    transform: translateY(20vh);
-    visibility: hidden;
-    transition: opacity 0.6s ease-out, transform 1.2s ease-out;
-    will-change: opacity, visibility;
+  opacity: 0;
+  transform: translateY(20vh);
+  visibility: hidden;
+  transition: opacity 0.6s ease-out, transform 1.2s ease-out;
+  will-change: opacity, visibility;
 }
 
 .fade-in-section.is-visible {
-    opacity: 1;
-    transform: none;
-    visibility: visible;
+  opacity: 1;
+  transform: none;
+  visibility: visible;
 }
 
 .main-logo img {
-    height: 100px;
-    padding: 0 1rem;
+  height: 100px;
+  padding: 0 1rem;
 }
 
 .nav-link {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 .github-card .footer {
-    display: none;
+  display: none;
 }
 
 #scrollToTopBtn {
-    background-color: black;
-    border: none;
-    border-radius: 50%;
-    color: white;
-    cursor: pointer;
-    font-size: 16px;
-    line-height: 48px;
-    width: 48px;
-  }
+  background-color: black;
+  border: none;
+  border-radius: 50%;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 48px;
+  width: 48px;
+}
 
 /*** Mobile Adjustments ***/
 
 @include media-breakpoint-down(sm) {
-    .buttons-group {
-        display: block;
-    }
+  .buttons-group {
+    display: block;
+  }
 
-    .btn {
-        margin-bottom: 2rem;
-    }
+  .btn {
+    margin-bottom: 2rem;
+  }
 }
 
 @include media-breakpoint-down(md) {
-    .container-fluid {
-        margin: 20px 0;
-    }
+  .container-fluid {
+    margin: 20px 0;
+  }
 
-    .content-container {
-        padding-left: 2rem;
-        padding-right: 2rem;
-    }   
+  .content-container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
 }
 
 @include media-breakpoint-down(lg) {
-    .container-fluid {
-        margin-top: 0;
-        margin-bottom: 0;
-    }
+  .container-fluid {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
 
-    .buttons-contact-group {
-        grid-column-gap: 60px;
-    }
+  .buttons-contact-group {
+    grid-column-gap: 60px;
+  }
 }
-
-
